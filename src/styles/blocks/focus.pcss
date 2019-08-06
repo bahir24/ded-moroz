@@ -1,0 +1,54 @@
+.focus {
+  padding-top: 9px;
+  margin-bottom: 48px;
+}
+
+.focus__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.focus__item {
+  display: flex;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background-color: rgb(248, 248, 248);
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &--internet {
+    background: $economy-icon;
+  }
+
+  &--handshake {
+    background: $health-icon;
+  }
+
+  &--culture {
+    background: $publick-icon;
+  }
+}
+
+.focus__item-icon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focus__item-pic {
+  fill: #fff;
+  height: 18px;
+  width: 18px;
+}
+
+.focus__item-text {
+  padding: 0 12px;
+  letter-spacing: 0.3px;
+}

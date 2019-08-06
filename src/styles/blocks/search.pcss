@@ -1,0 +1,43 @@
+.search {
+  display: inline-flex;
+  width: 39.5%;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 3px;
+  text-align: right;
+
+  @include phones {
+    width: 100%;
+  }
+}
+
+.search__field {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.search__field-input {
+  padding: 8px 0px;
+  width: 91%;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+
+  @include phones {
+    font-size: 15px;
+  }
+}
+
+.search__field-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 33px;
+  background: #fff;
+  border: none;
+}
+
+.search__field-pic {
+  height: 18px;
+  width: 18px;
+}
