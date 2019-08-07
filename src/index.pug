@@ -12,8 +12,8 @@ html(lang="en")
       .maincontent
         .container
           header.header
-            .menu-btn
-              a.menu-btn__pils
+            a.menu-btn
+              .menu-btn__pils
             nav.nav            
             .head
               h1.head__name CRIOS
@@ -23,6 +23,6 @@ html(lang="en")
               label.search__input
                 h4.search__input-head
                 input.search__input-text
-            .menu-btn.menu-btn--src
-              a.src-btn__mirror
-                +icon('search', 'src-btn__mirror')
+            a.menu-btn            
+              +icon('search', 'menu-btn__icon')
+          section.hero
