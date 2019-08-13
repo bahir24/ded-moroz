@@ -10,20 +10,24 @@ html(lang="en")
   body
     .wrapper <!-- overflow cut -->    
       .maincontent
-        .container
+        section.double          
           header.header
-            a.menu-btn
-              .menu-btn__pils
-            nav.nav            
-            .head
-              h1.head__name CRIOS
-              h2.head__desc FREE PSD TEMPLATE
-              .head__round
-            .search
-              label.search__input
-                h4.search__input-head
-                input.search__input-text
-            a.menu-btn            
-              +icon('search', 'menu-btn__icon')
+            .container
+              nav.nav
+                a.menu-btn
+                  .menu-btn__pils
+                .head
+                  h1.head__name CRIOS
+                  h2.head__desc FREE PSD TEMPLATE
+                  .head__round
+                .search
+                  label.search__input
+                    h4.search__input-head
+                    input.search__input-text
+                a.menu-btn
+                  +icon('search', 'menu-btn__icon')
+                h2.header__banner Simple PSD template with cool stuff
           section.hero
-          section.two
+            //- h3.hero__head Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            //- button.btn EXPLORE TEMPLATE
+        //- section.two
